@@ -54,6 +54,7 @@ body {
     width: 100%;
     padding: 100px 0; 
 }
+
 .hero-container {
     display: flex;
     justify-content: space-between; /* Alinea texto a la izq e imagen a la der */
@@ -97,7 +98,7 @@ body {
     display: inline-block; 
     margin-top: 20px;
     background-color: #3882f6; 
-    color: white;
+    color: faf6e8;
     padding: 10px 30px;
     border-radius: 8px; 
     text-decoration: none; 
@@ -106,9 +107,61 @@ body {
 }
 
 
-/* AQUI TERMINA EMPIEZA EL BANNER */
+/* AQUI TERMINA EL BANNER */
 
 
+/* AQUI EMPIEZA EL CONTENIDO DE TARJETAS */
+.content-card h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* ===== CADA ITEM (tarjeta + texto debajo) ===== */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
+/* ===== TARJETA (cuadro blanco) ===== */
+.card {
+    width: 100%;
+    height: 150px;
+    background: #faf6e8;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #5b90c2;
+    border-radius: 10px;
+    
+}
+
+/* ===== TEXTO DEBAJO DE LA TARJETA ===== */
+.item p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    line-height: 1.4;
+    margin: 0;
+}
 
 
 
