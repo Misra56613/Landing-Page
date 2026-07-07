@@ -3,43 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barba Negra</title>
+    <title>Front Page</title>
 </head>
 <body>
+
+ <link rel="stylesheet" href="style.css"> 
+
+<!-- 
+SECCIÓN DE ENCABEZADO, CON LOGO Y NAVEGACIÓN.
+-->
+
     <header class="header">
+        <div class="header-content">
+        <p class="logo">Hero Logo</p>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Header link one</a></li>
+                <li><a href="about.html">Header link two</a></li>
+                <li><a href="contact.html">Header link three</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+<!-- 
+BANNER HERO, CON IMAGEN Y TEXTO.
+-->
+
+<section class="hero-section"> 
+    
+    <div class="hero-container">
         
-        <div class="logo">
-            <a href="#">Header Logo</a>
+        <div class="banner">            
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. Its a smaller font and the color is lower contrast</p>
+            <a href="#" class="btn">Sign up</a>
         </div>
 
-        <nav class="header-links">
-            <ul>
-                <li><a href="index.html">header link one</a></li>
-                <li><a href="about.html">header link two</a></li>
-                <li><a href="contact.html">header link three</a></li>
-            </ul>
+        <div class="contentimage">
+            <img src="images/hero-image.jpg" alt="This is a placeholder for image">
+        </div>
 
-        </nav>
-
-        <link rel="stylesheet" href="style.css">
-    </header>
-
-<section class="hero-container">
-    <div class="banner"></div>
-        <h1>This is website is awesome</h1>
-        <p>This website has some subtext that goes under the main title. Its a smaller font and the color is lower contrast.</p>
-        <a href="#" class="btn">Sign Up</a>
-    </div>
-
-    <div class="content">
-        <img src="images/hero-image.jpg" alt="This is a placeholder for image">
     </div>
 
 </section>
 
+<!-- 
+SECCIÓN DE TARJETAS DE INFORMACIÓN, CON ILUSTRACIONES Y TEXTO. 
+-->
 
-<section class="content">
-    <h2>Some random information</h2>
+<section class="content-card">
+
+        <h2>Some random Information</h2>
 
     <div class="card-container">
         <div class="item">
@@ -64,26 +78,35 @@
             <p>this is some subtext under an illustration or image</p>
         </div>
     </div>
-</section>
+    </section>
 
-<section class="testimonial-section">
-    <figure class="testimonial">
-        <blockquote>
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        </blockquote>
-        <figcaption>- Thor, God of Thunder</figcaption>
-    </figure>
-</section>
+    <section class= "testimonial-section">
 
-<section class="footer">
-    <div class="footer-content">
-        <h3>Call to action! It's time!</h3>
-        
+        <figure class="testimonial">
+            <blockquote>
+            <figcaption>- John Doe, CEO of Company</figcaption>
+
+                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
+          </blockquote>        
+          <figcaption>- Thor, God of Thunder</figcaption>
+        </figure>
+    </section>
+
+
+<!-- 
+SECCIÓN DE FOOTER 
+-->
+    <section class="footer">
+
+        <div class="footer-content">
+        <h3>call to action! itś time </h3>
         <p>Sign up for our product by clicking that button right over there!</p>
-        
         <a href="#" class="btn">Sign up</a>
-    </div>
-        <p class="copyright">Copyright © The Odin Project 2021</p>
-</section>  
+        </div>
+        <p class="footer-text">© 2024 Misra Ramirez. All rights reserved.</p>
+    </section> 
+
+    <p>Prueba</p>
+
 </body>
 </html>

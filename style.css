@@ -1,14 +1,115 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: roboto, sans-serif;
   background-color: #f4f4f4;
 }
 
-.header {
+/* AQUI EMPIEZA EL HEADER */
+.header{
     background-color: #1f2937;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   width: 100%;
+    
 }
+
+.header-content{
+
+    display: flex;
+    justify-content: space-between; /* Logo a la izq, Nav a la der */
+    align-items: center;         
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;    
+    gap: 24px;        
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+  text-decoration: none; /* Quita el subrayado */
+    color: #f9faf8;
+    font-weight: 500;
+    transition: color 0.3s ease; 
+}
+/* AQUI TERMINA EL HEADER */
+
+
+
+/* AQUI EMPIEZA EL BANNER */
+
+.hero-section {
+    background-color: #1f2937; 
+    width: 100%;
+    padding: 100px 0; 
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between; /* Alinea texto a la izq e imagen a la der */
+    align-items: center; 
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;   
+    padding: 0 20px;
+}
+
+.banner {
+    flex: 1; 
+}
+
+.banner p {
+    font-size: 1.125rem;
+    color: #e5e7eb; 
+    margin-bottom: 10px;
+    flex: 0 1;
+}
+
+
+/* EL LADO DERECHO (Imagen) */
+.contentimage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    border-radius: 8px;        
+    min-height: 200px;         
+}
+
+.banner h1 {
+    color: #f9faf8;
+    font-size: 2.25rem;
+    margin: 0;
+}
+
+.btn {
+    display: inline-block; 
+    margin-top: 20px;
+    background-color: #3882f6; 
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px; 
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+/* AQUI TERMINA EMPIEZA EL BANNER */
+
+
+
+
+
+
