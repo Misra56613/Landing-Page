@@ -14,7 +14,7 @@ body {
 .header-content{
 
     display: flex;
-    justify-content: space-between; /* Logo a la izq, Nav a la der */
+    justify-content: space-between; 
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
@@ -78,7 +78,7 @@ body {
 
 /* EL LADO DERECHO (Imagen) */
 .contentimage {
-    
+
     flex: 1;
     display: flex;
     justify-content: center;
@@ -265,6 +265,5 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
